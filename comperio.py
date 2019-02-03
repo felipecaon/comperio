@@ -33,3 +33,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print('Found proiles were saved in found_profiles.txt file')
