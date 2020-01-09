@@ -1,0 +1,350 @@
+[
+  {
+    "identifier": "fiverr",
+    "url": "https://www.fiverr.com/{user}"
+  },
+  {
+    "identifier": "facebook",
+    "url": "https://www.facebook.com/{user}"
+  },
+  {
+    "identifier": "twitter",
+    "url": "https://twitter.com/{user}"
+  },
+  {
+    "identifier": "tumblr",
+    "url": "https://{user}.tumblr.com/"
+  },
+  {
+    "identifier": "reddit",
+    "url": "https://www.reddit.com/user/{user}"
+  },
+  {
+    "identifier": "instagram",
+    "url": "https://www.instagram.com/{user}"
+  },
+  {
+    "identifier": "myspace",
+    "url": "https://myspace.com/{user}"
+  },
+  {
+    "identifier": "youtube",
+    "url": "https://www.youtube.com/user/{user}"
+  },
+  {
+    "identifier": "pinterest",
+    "url": "https://pinterest.com/{user}"
+  },
+  {
+    "identifier": "dribbble",
+    "url": "https://dribbble.com/{user}"
+  },
+  {
+    "identifier": "github",
+    "url": "https://github.com/{user}"
+  },
+  {
+    "identifier": "vimeo",
+    "url": "https://vimeo.com/{user}"
+  },
+  {
+    "identifier": "ello",
+    "url": "https://ello.co/{user}"
+  },
+  {
+    "identifier": "foursquare",
+    "url": "https://foursquare.com/{user}"
+  },
+  {
+    "identifier": "foursquare",
+    "url": "https://last.fm/user/{user}"
+  },
+  {
+    "identifier": "about",
+    "url": "https://about.me/{user}"
+  },
+  {
+    "identifier": "flickr",
+    "url": "https://flickr.com/photos/{user}"
+  },
+  {
+    "identifier": "wordpress",
+    "url": "https://{user}.wordpress.com"
+  },
+  {
+    "identifier": "blogspot",
+    "url": "https://{user}.blogspot.com/"
+  },
+  {
+    "identifier": "deviantart",
+    "url": "https://deviantart.com/{user}"
+  },
+  {
+    "identifier": "spotify",
+    "url": "https://open.spotify.com/user/{user}"
+  },
+  {
+    "identifier": "disqus",
+    "url": "https://disqus.com/by/{user}"
+  },
+  {
+    "identifier": "badoo",
+    "url": "https://badoo.com/profile/{user}"
+  },
+  {
+    "identifier": "ebay",
+    "url": "https://www.ebay.com/urw/{user}"
+  },
+  {
+    "identifier": "livejournal",
+    "url": "https://{user}.livejournal.com/"
+  },
+  {
+    "identifier": "livejournal",
+    "url": "https://{user}.livejournal.com/"
+  },
+  {
+    "identifier": "livejournal",
+    "url": "https://{user}.livejournal.com/"
+  },
+  {
+    "identifier": "etsy",
+    "url": "https://www.etsy.com/people/{user}"
+  },
+  {
+    "identifier": "etsy",
+    "url": "https://www.etsy.com/people/{user}"
+  },
+  {
+    "identifier": "google-plus",
+    "url": "https://plus.google.com/+{user}"
+  },
+  {
+    "identifier": "slack",
+    "url": "https://{user}.slack.com/"
+  },
+  {
+    "identifier": "steamcommunity",
+    "url": "https://steamcommunity.com/id/{user}"
+  },
+  {
+    "identifier": "soundcloud",
+    "url": "https://soundcloud.com/{user}"
+  },
+  {
+    "identifier": "soundcloud",
+    "url": "https://soundcloud.com/{user}"
+  },
+  {
+    "identifier": "bitbucket",
+    "url": "https://bitbucket.org/{user}"
+  },
+  {
+    "identifier": "dailymotion",
+    "url": "https://www.dailymotion.com/{user}"
+  },
+  {
+    "identifier": "medium",
+    "url": "https://medium.com/@{user}"
+  },
+  {
+    "identifier": "behance",
+    "url": "https://www.behance.net/{user}"
+  },
+  {
+    "identifier": "photobucket",
+    "url": "http://smg.photobucket.com/user/{user}/library"
+  },
+  {
+    "identifier": "coderwall",
+    "url": "https://coderwall.com/{user}"
+  },
+  {
+    "identifier": "fanpop",
+    "url": "http://www.fanpop.com/fans/{user}"
+  },
+  {
+    "identifier": "goodreads",
+    "url": "https://www.goodreads.com/{user}"
+  },
+  {
+    "identifier": "instructables",
+    "url": "https://www.instructables.com/member/{user}"
+  },
+  {
+    "identifier": "keybase",
+    "url": "https://keybase.io/{user}"
+  },
+  {
+    "identifier": "kongregate",
+    "url": "https://www.kongregate.com/accounts/{user}"
+  },
+  {
+    "identifier": "mix",
+    "url": "https://mix.com/{user}"
+  },
+  {
+    "identifier": "angel",
+    "url": "https://angel.co/{user}"
+  },
+  {
+    "identifier": "slideshare",
+    "url": "https://www.slideshare.net/{user}"
+  },
+  {
+    "identifier": "pastebin",
+    "url": "https://pastebin.com/u/{user}"
+  },
+  {
+    "identifier": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/User:{user}"
+  },
+  {
+    "identifier": "stream",
+    "url": "https://www.stream.me/{user}"
+  },
+  {
+    "identifier": "ifttt",
+    "url": "https://ifttt.com/p/{user}"
+  },
+  {
+    "identifier": "soup",
+    "url": "http://{user}.soup.io/"
+  },
+  {
+    "identifier": "trakt",
+    "url": "https://trakt.tv/users/{user}"
+  },
+  {
+    "identifier": "ycombinator",
+    "url": "https://news.ycombinator.com/user?id={user}"
+  },
+  {
+    "identifier": "500px",
+    "url": "https://500px.com/{user}"
+  },
+  {
+    "identifier": "houzz",
+    "url": "https://www.houzz.com/user/{user}"
+  },
+  {
+    "identifier": "buzzfeed",
+    "url": "https://www.buzzfeed.com/br/{user}"
+  },
+  {
+    "identifier": "tripadvisor",
+    "url": "https://www.tripadvisor.com/Profile/{user}"
+  },
+  {
+    "identifier": "hubpages",
+    "url": "https://hubpages.com/@{user}"
+  },
+  {
+    "identifier": "canva",
+    "url": "https://www.canva.com/{user}"
+  },
+  {
+    "identifier": "creativemarket",
+    "url": "https://creativemarket.com/{user}"
+  },
+  {
+    "identifier": "bandcamp",
+    "url": "https://bandcamp.com/{user}"
+  },
+  {
+    "identifier": "reverbnation",
+    "url": "https://www.reverbnation.com/{user}"
+  },
+  {
+    "identifier": "designspiration",
+    "url": "https://www.designspiration.net/{user}"
+  },
+  {
+    "identifier": "wattpad",
+    "url": "https://www.wattpad.com/user/{user}"
+  },
+  {
+    "identifier": "ask.fm",
+    "url": "https://ask.fm/{user}"
+  },
+  {
+    "identifier": "patreon",
+    "url": "https://www.patreon.com/{user}/creators"
+  },
+  {
+    "identifier": "newgrounds",
+    "url": "http://{user}.newgrounds.com/"
+  },
+  {
+    "identifier": "telegram",
+    "url": "https://telegram.me/{user}"
+  },
+  {
+    "identifier": "linkedin",
+    "url": "https://www.linkedin.com/in/{user}"
+  },
+  {
+    "identifier": "imgur",
+    "url": "https://imgur.com/user/{user}"
+  },
+  {
+    "identifier": "cnet",
+    "url": "https://www.cnet.com/profiles/{user}"
+  },
+  {
+    "identifier": "sourceforge",
+    "url": "https://sourceforge.net/u/{user}/profile/"
+  },
+  {
+    "identifier": "wikihow",
+    "url": "https://www.wikihow.com/User:{user}"
+  },
+  {
+    "identifier": "weebly",
+    "url": "https://{user}.weebly.com/"
+  },
+  {
+    "identifier": "imageshack",
+    "url": "https://imageshack.com/user/{user}"
+  },
+  {
+    "identifier": "liveleak",
+    "url": "https://www.liveleak.com/c/{user}"
+  },
+  {
+    "identifier": "weheartit",
+    "url": "https://weheartit.com/{user}"
+  },
+  {
+    "identifier": "weheartit",
+    "url": "https://weheartit.com/{user}"
+  },
+  {
+    "identifier": "hi5",
+    "url": "https://www.hi5.com/{user}"
+  },
+  {
+    "identifier": "myfitnesspal",
+    "url": "https://www.myfitnesspal.com/{user}"
+  },
+  {
+    "identifier": "chess",
+    "url": "https://www.chess.com/member/{user}"
+  },
+  {
+    "identifier": "bit.ly",
+    "url": "http://bit.ly/{user}"
+  },
+  {
+    "identifier": "8tracks",
+    "url": "https://8tracks.com/{user}"
+  },
+  {
+    "identifier": "strava",
+    "url": "https://www.strava.com/athletes/{user}"
+  },
+  {
+    "identifier": "knowem",
+    "url": "https://knowem.com/{user}"
+  }
+]
