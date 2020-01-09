@@ -3,3 +3,4 @@ venv
 .vscode
 found_profiles.txt
 playground.py
+*/__pycache/
