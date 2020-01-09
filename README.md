@@ -17,7 +17,7 @@ The current supported site list can be found inside [sites.json](https://github.
 
 ### Adding new sites
 
-In order to add new sites you must include a new json obj in the sites.json file.
+In order to add new sites you must include a new json object in the sites.json file.
 
 |    key     | value |
 |------------|-------|
@@ -28,7 +28,7 @@ example:
 
 ```
 {
-  "identifier": "site_identifier",
+  "identifier": "sample",
   "url": "http://sample.com/{user}"
 }
 ```

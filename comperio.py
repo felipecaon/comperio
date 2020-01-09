@@ -2,14 +2,14 @@ import requests
 import json
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
+from requests.exceptions import SSLError
+
 from helpers.colored_text_helper import ColoredTextHelper
 
-sites = open("sites.json", "r")
-sites_data = json.load(sites)
-found_profiles_file = open("found_profiles.txt", "w+")
-found_profiles_file.truncate()
-color = ColoredTextHelper()
-color.start()
+
+def _load_sites():
+    sites = open("sites.json", "r")
+    return json.load(sites)
 
 
 def _get_arguments():
@@ -29,12 +29,17 @@ def _get_arguments():
 def main():
 
     args = _get_arguments()
+    sites = _load_sites()
+    color = ColoredTextHelper()
+    color.start()
 
     for username in args.username:
-        print('Now trying: ' + username)
+        print('Now trying: ', end='')
+        print(color.black(text=username))
         print('----------------')
         found_profiles = []
-        for data in sites_data:
+        found_profiles = []
+        for data in sites:
             url = data['url']
             identifier = data['identifier']
             formatted_url = url.format(user=username)
@@ -42,17 +47,18 @@ def main():
             response = None
             try:
                 response = requests.get(formatted_url)
-            except Exception:
+            except Exception or SSLError:
                 message = f'{identifier}: ERROR'
                 print(color.red(text=message))
 
-            if response.status_code == 200:
-                found_profiles.append(formatted_url)
-                message = f'{identifier}: FOUND'
-                print(color.green(text=message))
-            else:
-                message = f'{identifier}: NOT FOUND'
-                print(color.not_found(text=message))
+            if response is not None:
+                if response.status_code == 200:
+                    found_profiles.append(formatted_url)
+                    message = f'{identifier}: FOUND'
+                    print(color.green(text=message))
+                else:
+                    message = f'{identifier}: NOT FOUND'
+                    print(color.light_red(text=message))
 
         print('\nFound profiles:')
         print('----------------')

@@ -19,5 +19,9 @@ class ColoredTextHelper:
         return f'{Fore.GREEN}{text}{reset_color()}'
 
     @staticmethod
-    def not_found(text: str) -> str:
+    def light_red(text: str) -> str:
         return f'{Fore.LIGHTRED_EX}{text}{reset_color()}'
+
+    @staticmethod
+    def black(text: str) -> str:
+        return f'{Fore.BLACK}{text}{reset_color()}'

@@ -56,7 +56,7 @@
     "url": "https://foursquare.com/{user}"
   },
   {
-    "identifier": "foursquare",
+    "identifier": "last.fm",
     "url": "https://last.fm/user/{user}"
   },
   {
@@ -100,18 +100,6 @@
     "url": "https://{user}.livejournal.com/"
   },
   {
-    "identifier": "livejournal",
-    "url": "https://{user}.livejournal.com/"
-  },
-  {
-    "identifier": "livejournal",
-    "url": "https://{user}.livejournal.com/"
-  },
-  {
-    "identifier": "etsy",
-    "url": "https://www.etsy.com/people/{user}"
-  },
-  {
     "identifier": "etsy",
     "url": "https://www.etsy.com/people/{user}"
   },
@@ -126,10 +114,6 @@
   {
     "identifier": "steamcommunity",
     "url": "https://steamcommunity.com/id/{user}"
-  },
-  {
-    "identifier": "soundcloud",
-    "url": "https://soundcloud.com/{user}"
   },
   {
     "identifier": "soundcloud",
@@ -310,10 +294,6 @@
   {
     "identifier": "liveleak",
     "url": "https://www.liveleak.com/c/{user}"
-  },
-  {
-    "identifier": "weheartit",
-    "url": "https://weheartit.com/{user}"
   },
   {
     "identifier": "weheartit",
