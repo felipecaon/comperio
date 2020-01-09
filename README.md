@@ -1,4 +1,4 @@
-**IMPORTANT:** Python 3.6 is required
+**IMPORTANT:** Python 3.x is required
 
 ### Steps for installation:
 
@@ -13,8 +13,22 @@
 
 ### Sites supported
 
-The current supported site list can be found inside [sites.txt](https://github.com/felipecaon/comperio/blob/master/sites.txt "sites.txt") file.
+The current supported site list can be found inside [sites.json](https://github.com/felipecaon/comperio/blob/master/sites.json "sites.txt") file.
 
 ### Adding new sites
 
-In order to add new sites you can add the desired profile url with the characters `{}` replacing the usual profile name (ex: https://twitter.com/{}) in the [sites.txt](https://github.com/felipecaon/comperio/blob/master/sites.txt "sites.txt") file.
+In order to add new sites you must include a new json obj in the sites.json file.
+
+|    key     | value |
+|------------|-------|
+| identifier | site identifier, usually the name, to appear during/after script execution. |
+| url        | site url where a profile can be found, with {user} showing the injection point. |
+
+example:
+
+```
+{
+  "identifier": "site_identifier",
+  "url": "http://sample.com/{user}"
+}
+```
