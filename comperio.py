@@ -38,7 +38,6 @@ def main():
         print(color.black(text=username))
         print('----------------')
         found_profiles = []
-        found_profiles = []
         for data in sites:
             url = data['url']
             identifier = data['identifier']
