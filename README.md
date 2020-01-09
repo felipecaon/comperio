@@ -10,6 +10,11 @@
 
     # run comperio
     python3 comperio.py user1 user2 ...
+    
+    
+### How to use
+
+Run  ```comperio.py -h``` to show expected arguments
 
 ### Sites supported
 
