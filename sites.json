@@ -322,9 +322,5 @@
   {
     "identifier": "strava",
     "url": "https://www.strava.com/athletes/{user}"
-  },
-  {
-    "identifier": "knowem",
-    "url": "https://knowem.com/{user}"
   }
 ]
